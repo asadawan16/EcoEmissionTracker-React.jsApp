@@ -1,0 +1,25 @@
+.aboutusbanner {
+    background: url('../../assets/aboutus-banner.png') no-repeat;
+    background-size: cover;
+    padding:85px 0 95px;
+}
+.aboutusbanner h1 {
+    margin-bottom: 45px;
+    text-align: left;
+    color:  #262626;
+    font-family: "Be Vietnam Pro";
+    font-size: 38px;
+    font-weight: 600;
+    animation: slide-in-left 1s ease-out forwards;
+    line-height: 57px; 
+}
+.aboutusbanner p {
+    max-width: 500px;
+    text-align: justify;
+    color: var(--Grey-35, #59595A);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    animation: slide-in-bottom 1s ease-out forwards;
+    line-height: 30px; 
+}

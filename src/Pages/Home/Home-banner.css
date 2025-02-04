@@ -1,0 +1,72 @@
+.home-banner {
+    padding: 200px  0 ;
+    background-color: #3a85ff3f;
+    background: url('../../assets/home-banner8.png') no-repeat;
+    background-size: cover;
+    
+}
+.home-banner h1 {
+    color: #4D4D4D;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    animation: slide-in-top 1.5s ease-out forwards;
+    line-height: 54px;
+}
+.home-banner span {
+    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    animation: slide-in-top 1s ease-out forwards;
+    line-height: 26px;
+}
+.home-banner p { 
+    padding: 20px 0 50px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    max-width: 80%;
+    font-weight: 300;
+    animation: slide-in-bottom 1s ease-out forwards;
+    line-height: 26px; 
+}
+.home-banner a {
+    color: #000;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 10px 22px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+.home-banner a:hover {
+    color: #fff;
+    background-color: #3a85ff;
+    transition: all 0.3s ease-in-out;
+}
+@media(max-width:1330px) {
+    .home-banner {
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+}
+@media(max-width:1080px){
+ 
+    .home-banner h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .home-banner span {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .home-banner p {
+        font-size: 16px;
+    }
+}

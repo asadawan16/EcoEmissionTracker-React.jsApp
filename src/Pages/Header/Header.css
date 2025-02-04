@@ -1,0 +1,243 @@
+header {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #F8F9FA;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    column-gap: 20px;
+}
+.logo h1 a  {
+    display: block;
+    text-wrap: nowrap;
+    color: #000 ;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.logo img {
+    width :50px;
+}
+
+header nav ul {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.header-btn {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+header nav ul li a {
+    position: relative;
+    color: #4D4D4D;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px ;
+}
+header nav ul li a:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #8EE04E;
+    left: 0;
+    bottom: -5px;
+}
+header nav ul li a:hover  , .header-btn a:hover {
+    color: #8EE04E;
+    transition: all 0.3s ease-in-out;
+}
+header nav ul li a:hover:after {
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.header-btn a {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.emissionlink  {
+    left: 0;
+    top: 100%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background-color: #F8F9FA;
+    position: absolute;
+    z-index: 1;
+}
+
+.profile-dropdown {
+    top: 80%;
+    right: -18%;
+    top: 200% ;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background-color: #F8F9FA;
+    position: absolute;
+    z-index: 1;
+}
+
+.emissionlink li a{
+    text-wrap: nowrap;
+}
+.header-login-btn {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    background-color: #8EE04E;
+    color: #fff !important;
+    border-radius: 40px;
+}
+.header-login-btn:hover {
+    color: #F8F9FA;
+    background-color: #000 !important;
+    transition: all 0.3s ease-in-out;
+}
+/* animation */
+.logo {
+    animation: slide-in-left 1s ease-out forwards;
+}
+nav {
+    animation: zoom-in 0.5s ease-out forwards;
+}
+.header-btn {
+    animation: slide-in-right 1s ease-out forwards;
+}
+.hamburger-menu {
+    display: none;
+}
+/* Responsive css */
+/* Responsive styles for Header */
+@media(max-width:1330px){
+ 
+
+  header nav ul {
+    column-gap: 15px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  .header-btn  a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1080px) {
+  header .logo h1 a {
+    max-width: 40%;
+    text-wrap: wrap;
+    font-size: 16px;
+  }
+  .logo {
+    column-gap: 5px;
+  }
+  header .logo img {
+    max-width: 80%;
+  }
+  .header-btn a {
+    font-size: 14px;
+
+  }
+
+}
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .logo {
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .logo h1 a {
+      font-size: 18px;
+    }
+  
+    nav ul {
+      display: none; /* Hide the main nav by default on smaller screens */
+      flex-direction: column;
+      row-gap: 10px;
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    .header-btn {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      row-gap: 10px;
+    }
+  
+    .header-btn a {
+      font-size: 14px;
+    }
+  
+    .header-login-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .emissionlink,
+    .profile-dropdown {
+      position: static;
+      margin-top: 10px;
+      padding: 10px 5px;
+    }
+  
+    .emissionlink li a,
+    .profile-dropdown li a {
+      font-size: 14px;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+   
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 15px;
+    }
+  
+    .logo h1 a {
+      font-size: 16px;
+    }
+  
+    .logo img {
+      width: 40px;
+    }
+  
+    .header-btn a {
+      font-size: 12px;
+    }
+  
+    .header-login-btn {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  
+    .emissionlink li a,
+    .profile-dropdown li a {
+      font-size: 12px;
+    }
+  
+  }
+ 
+    

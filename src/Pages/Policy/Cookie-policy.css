@@ -1,0 +1,47 @@
+.cookie-policy {
+    margin: 100px 0;
+}
+
+.cookie-policy h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+}
+.cookie-policy h1:after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    top: 15%;
+    right: 100px;
+    background: #000;
+    margin-top: 20px;
+}
+.cookie-policy h1:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 20%;
+    border-radius: 2px solid #000;
+    height: 2px;
+    top: 15%;
+    left: 100px;
+    background: #000;
+    margin-top: 20px;
+}
+.cookie-policy p {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}

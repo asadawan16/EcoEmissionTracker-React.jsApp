@@ -1,0 +1,111 @@
+.why-choose-us {
+    padding: 120px 0;
+    background-color: #C4C4C480;
+}
+.why-choose-us h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48x;
+}
+.choose-description{
+    
+    max-width: 775px;
+    margin: 30px auto;
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Choose-us-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 0;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap; 
+}
+#benefit {
+    max-width: 32%;
+    padding: 20px 20px 25px 30px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+#benefit h3 {
+    text-align: left;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#benefit h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2.5px;
+    background-color: #4472C3;
+    margin-top: 15px;
+}
+#benefit p {
+    margin-top: 28px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bg-color1 {
+    background-color: #F6FFED; 
+}
+
+.bg-color2 {
+    background-color: #FFFFFF; 
+}
+
+.bg-color3 {
+    background-color: #FFF6E9; 
+}
+@media (max-width:1330px ){
+    .why-choose-us p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media(max-width:1080px) {
+    .choose-us-grid {
+        justify-content: space-around;
+    }
+    #benefit {
+        max-width: 45% !important;
+    }
+    .why-choose-us h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .why-choose-us {
+        padding-left:50px ;
+        padding-right: 50px;
+    }
+}
+@media(max-width:768px){
+    .why-choose-us p  {
+        font-size: 14px;
+        max-width: 80%;
+
+    }
+    .Choose-us-grid{
+        row-gap: 60px;
+        justify-content: center;
+    }
+    #benefit {
+        max-width: 90% !important;
+    }
+}

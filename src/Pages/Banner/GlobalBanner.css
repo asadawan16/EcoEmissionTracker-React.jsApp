@@ -1,0 +1,18 @@
+.Global-banner {
+    background: url('../../assets/contactusbanner.jpeg') no-repeat;
+    background-size: cover;
+
+}
+.globalbanner-heading {
+    text-align: center;
+    padding: 250px 0;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 80px;
+    animation: slide-in-top 1s ease-out forwards;
+    font-weight: 400;
+    line-height: 26px;
+}
+.Global-banner .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}

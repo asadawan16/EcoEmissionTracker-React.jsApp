@@ -1,0 +1,109 @@
+
+.manageadmin  {
+    border-radius: 12px ;
+    padding: 30px;
+    margin: 10px 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.manageadmin form {
+    background: #F1F4F9;
+    border-radius: 12px;
+    margin: 10px auto;
+    display: flex;
+    width: 70%;
+    padding: 40px;
+    animation: bounce-in 0.6s ease-out forwards;
+    flex-direction: column;
+}
+.manageadmin h2  {
+    margin: 35px 0;
+    color: #202224;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    text-align: left;
+}
+.manageadmin label  {
+    margin-bottom: 10px;
+    /* color:  #262626; */
+    color: #202224;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.manageadmin input  {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #FCFCFD;
+    color:  #202224;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border: none;
+
+}
+.manageadmin  .submitbtn   {
+    width: 100%;
+    color:  #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px ;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: #3a85ffd3;
+    border: 1px solid #3A86FF;
+}
+.manageadmin .submitbtn:hover {
+    cursor: pointer;
+    background-color: #3A86FF;
+    border: 1px solid #FCFCFD;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.manageadmin form  p {
+    /* color:  #262626; */
+    color: #FCFCFD;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px; 
+    font-weight: 400;
+}
+
+.password {
+    position: relative;
+}
+.password .eye-icon {
+   position: absolute;
+   font-size: 24px;
+   right: 10px;
+   top: 20px;
+   color : #4C4C4D;
+   cursor: pointer;
+}
+#ManageAdmindarkmode {
+    background-color: #273142;
+}
+#ManageAdmindarkmode h2 {
+    color: #fff;
+}
+#ManageAdmindarkmode label {
+    color: #fff;
+}
+#ManageAdmindarkmode input {
+    background-color: #273142;
+    color: #fff;
+}
+#ManageAdmindarkmode form {
+    background-color: #000;
+}

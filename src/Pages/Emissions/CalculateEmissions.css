@@ -1,0 +1,130 @@
+#CalculateEmissions {
+    background: url("../../assets/CE-BG.png") no-repeat;
+    background-size: cover;
+    }
+
+#CalculateEmissions h1 {
+    padding: 100px 0 10px;
+    margin: 0 !important;
+    color: #000;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+#CalculateEmissions span {
+    text-wrap: nowrap;
+    display: block !important; 
+    text-align: left !important;
+    color: var(--Grey-30, #4C4C4D);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.emissions {
+    padding: 50px 0 150px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 160px;
+}
+.emission-category {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.emission-category button {
+    padding: 40px  69px;
+    /* background-color:  rgba(116, 187, 187, 0.35); */
+    background-color: #8de04e7c;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.emission-category button:hover {
+    /* background-color: rgba(58, 134, 255, 0.68); */
+    background-color: #8EE04E;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+#emission-form {
+    margin-top: 120px;
+    display: flex;
+    background-color: #fff;
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+#emission-form label {
+    margin: 20px 0;
+    color: #000;
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#emission-form select {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F6F6F8;
+    width: 100%;
+    padding: 20px 10px;
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#emission-form input  {
+    padding: 18px 10px;
+    background-color: #F6F6F8;
+    color: var(--Grey-40, #656567);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.quantity-unit {
+    display: flex;
+    justify-content: space-between;
+}
+.quantity , .unit{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+#emission-form button[type="submit"] {
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #8EE04E;
+    border: none;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 30%;
+    cursor: pointer;
+    margin: 10px auto;
+}
+#emission-form button[type="submit"]:hover {
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+button.active {
+    background-color: #8EE04E;
+    color: #fff; /* Active text color */
+    border: 1px solid #fff; /* Active border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    transform: scale(1.05); /* Slight zoom effect */    
+}

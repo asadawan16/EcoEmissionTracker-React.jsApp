@@ -1,0 +1,123 @@
+.welcome {
+    margin: 84px 0 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome h1 {
+    margin: 46px 0 30px;
+    color: #000;
+    font-family: 'Be Vietnam Pro';
+    font-size: 32px;
+    line-height: 38px;
+    font-style: normal;
+    font-weight: 500;   
+}
+.welcome span {
+    display: block;
+    color: #4D4D4D;
+    font-family: 'Be Vietnam Pro';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.navigation-btn {
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navigation-btn a {
+    padding: 16px  48px ;
+    background-color: #3A86FF;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #3A86FF;
+    line-height: 30px; 
+}
+.navigation-btn a:hover {
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    color: #3A86FF;
+    border: 1px solid #3A86FF;
+}
+
+/* logo */
+.animated-svg-container {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    overflow: hidden; /* Ensure the container hides overflowing content */
+    margin: 0 auto; /* Center the container if needed */
+  }
+  
+  .animated-svg {
+    width: 100%; /* Make the SVG fit the container */
+    height: auto; /* Maintain aspect ratio */
+    animation: fillLeftToRight 1s linear forwards;
+  }
+  
+  @keyframes fillLeftToRight {
+    0% {
+      clip-path: inset(0 100% 0 0);
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+
+  
+
+  /* animation */
+.navigation-btn {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .navigation-btn a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3A86FF;
+    border-radius: 5px;
+    position: relative;
+    animation: slide-in 1s ease-out forwards;
+    opacity: 0; 
+  }
+  
+  /* Keyframe for sliding animation */
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+.welcome h1,
+.welcome span {
+  display: inline-block;
+  position: relative;
+  animation: slide-in-right 1s ease-out forwards;
+  opacity: 0; /* Start with opacity 0 for fade-in effect */
+}
+
+.welcome h1 {
+  margin-top: 20px; 
+}
+
+.welcome span {
+  margin-top: 10px; 
+}

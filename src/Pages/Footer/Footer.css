@@ -1,0 +1,138 @@
+footer {
+    position: relative;
+    padding: 88px 104px 100px 104px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: first baseline;
+    background-color: #000;
+    column-gap: 50px;
+}
+footer::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    height: 0.5px;
+    background-color: #E4E4E7;
+}
+footer h2 {
+    margin-top: 10px ;
+    color: #3A86FF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;    
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width:300px;
+    
+} 
+footer ul li a , footer ul li{
+
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px; 
+}
+footer ul li a:hover {
+    color: #3A86FF;
+    transition: all 0.2s ease-in-out;
+}
+.address {
+    max-width: 100% !important;
+}
+footer input[type=email] {
+    padding: 16px;
+    width: 100%;
+}
+footer li button {
+    padding: 16px 48px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: #3A86FF;
+    border: 1px solid #3A86FF;
+    border-radius: 8px;
+}
+footer li button:hover {
+    border: 1px solid #FCFCFD;
+    transition: all 0.3s ease-in-out;
+}
+footer ul li {
+    position: relative;
+    
+}
+.footer-icon {
+    position: absolute;
+    font-size: 18px;
+    top: 2px;
+    left: -25px;
+}
+.social  li {
+    margin-left: 25px;
+}
+
+footer .logo {
+    display: flex ;
+    align-items: center;
+    column-gap: 10px;
+}
+footer .logo img {
+    position: relative;
+    top: 5px;
+    width: 20px;
+}
+footer .logo h2 {
+    text-wrap: nowrap;
+}
+
+@media(max-width:1330px){
+    footer {
+        gap: 30px !important;
+        /* padding: 0 !important; */
+    }
+    footer input[type=email]{
+        width: 60% !important;
+    }
+    footer::after {
+        max-width: 1660px;
+    }
+}
+@media( max-width:1080px) {
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        row-gap: 20px;
+        justify-content: space-around;
+    }
+    footer ul {
+        width: 30%;
+        row-gap: 15px;
+    }
+}
+@media(max-width:768px){
+    footer {
+        justify-content: center;
+    }
+    footer ul {
+        width: 70%;
+    }
+    footer ul li {
+        letter-spacing: 2px;
+    }
+    footer::after {
+        bottom: 50px;
+    }
+}

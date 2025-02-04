@@ -1,0 +1,35 @@
+.latest-videos {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+}
+.latest-videos h2 {
+    position: relative;
+    margin-bottom: 66px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.latest-videos h2::after {
+    position: absolute;
+    content: '';
+    width: 4px;
+    border-radius: 8px;
+    height: 10px;
+    background-color: #F81539;
+    bottom: 10px;
+    left: -10px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.videos iframe {
+   border-radius: 8px ;
+}

@@ -1,0 +1,55 @@
+.our-goals {
+    background-color: #Fff;
+    padding: 100px 0;
+}
+.our-goals h2  {
+    margin-bottom: 10px;
+    color:  #333;
+    font-family: "Be Vietnam Pro";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+} 
+.our-goals p  {
+    margin-bottom: 60px;
+    color:  #59595A;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.goal-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.goal {
+
+    width: 43%;
+}
+.goal img {
+    padding: 16px;
+    /* background-color: #FFEACC; */
+    background-color: #FFF9F0;
+    border-radius: 8px;
+    margin-bottom: 24px;
+
+}
+.goal h3 {
+    margin-bottom: 10px;
+    color: var(--Grey-15, #262626);
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+     font-weight: 500;
+    line-height: 30px; 
+}
+.goal p {
+    color:  #59595A;
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 24px; 
+}

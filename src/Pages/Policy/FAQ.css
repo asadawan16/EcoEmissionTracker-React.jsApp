@@ -1,0 +1,103 @@
+
+.faq h1 {
+    position: relative;
+    margin: 100px 0 10px !important;
+    color: #000;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 46px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: 52px; 
+}
+.faq h1:after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    top: 15%;
+    right: 50px;
+    background: #000;
+    margin-top: 20px;
+}
+.faq h1:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 20%;
+    border-radius: 2px solid #000;
+    height: 2px;
+    top: 15%;
+    left: 50px;
+    background: #000;
+    margin-top: 20px;
+}
+.faq span {
+    margin: 0 auto 50px;
+    display: block;
+    text-align: center;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.faq {
+    padding: 25px 0 25px;
+    border-top:1px   solid #707070;
+    border-bottom:1px   solid #707070;
+}
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+}
+.faq-question button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #786F77;
+    font-family: 'Montserrat';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.faq h2{
+    margin-bottom: 34px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 127.778% */
+}
+.faq p {
+    color: #786F77;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+}
+/* Animation */
+.faq-answer {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .faq-answer.expand {
+    max-height: 500px; 
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .faq-answer.collapse {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  

@@ -1,0 +1,58 @@
+.carbon-footprint {
+    padding: 100px 0 ;
+    background-color: #D9D9D9;
+}
+.carbon-footprint h2 {
+    margin-bottom: 52px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.blog-grid {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.blog {
+    width: 34%;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 5px;
+}
+.blog-img {
+
+    height: 55%;
+    overflow: hidden;
+}
+.blog-img img {
+    width: 100%;
+    border-radius: 12px;
+}
+.blog-description h3 {
+    margin: 16px 0;
+    max-width: 90%;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+.blog-description p {
+    overflow: hidden;
+    max-width: 100%;
+    color: var(--Black-75, rgba(62, 50, 50, 0.75));
+    text-overflow: ellipsis;
+    display: -webkit-box; /* Required for multi-line ellipsis */
+    -webkit-box-orient: vertical; /* Required for multi-line ellipsis */
+    -webkit-line-clamp: 3; /* Show 3 lines before truncating */
+    line-clamp: 3;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+}

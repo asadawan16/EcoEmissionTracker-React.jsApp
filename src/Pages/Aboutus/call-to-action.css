@@ -1,0 +1,58 @@
+.call-to-action {
+    position: relative;
+    background-color: #FFF9F0;
+    /* background: url('../../assets/CTASection.png') no-repeat; */
+    background-size: cover;
+    padding: 60px 0;
+}
+.call-to-action .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call  span {
+    color: #3A86FF;
+    display: inline-block;
+}
+.cta-bg {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    opacity: 1;
+    bottom: 0;
+}
+.call h2 , span { 
+    margin-bottom: 20px;
+    max-width: 65%;
+    color:  #262626;
+    font-family: "Be Vietnam Pro";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.call p {
+    color: var(--Grey-30, #4C4C4D);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.join-btn a {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 14px 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3A86FF;
+    border: 2px solid #3A86FF;
+    border-radius: 6px;
+}
+.join-btn a:hover {
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out;
+}

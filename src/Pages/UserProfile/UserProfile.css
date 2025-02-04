@@ -1,0 +1,97 @@
+.profile-bg {
+    background: url('../../assets/contactusbanner.jpeg') no-repeat;
+    background-size: cover;
+}
+.profile-bg .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.profile-bg h1 {
+    text-align: center;
+    padding: 250px 0;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 80px;
+    animation: slide-in-top 1s ease-out forwards;
+    font-weight: 600;
+    line-height: 26px;
+}
+.profile-form {
+    position: relative;
+    top: -50px;
+    margin-bottom: 52px;
+    max-width: 431px;
+    border-radius: 10px;
+    border: 2px solid #EBEBEE;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.profile-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-image img {
+    clip-path: circle();
+    width: 100px;
+}
+.profile-info {
+    margin: 35px 0;
+    display: flex;
+    flex-direction:column ;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--Input-Box-Stroke-Thin, rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+}
+.profile-form label {
+    margin: 10px 0;
+    color: rgba(31, 31, 31, 0.70);
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.profile-form input {
+    margin-bottom: 20px;
+    color: rgba(34, 34, 34, 0.90);
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border: none;
+    font-weight: 500;
+    line-height: normal;
+}
+.profile-data {
+    display: flex;
+    justify-content: space-between;
+}
+.profile-data button {
+    padding: 5px 26px;
+    color: #1F1F1FCC;
+    font-family: 'Montserrat';
+    font-size:  10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 72.661px;
+    background: #F0EFFA;
+    border: none;
+}
+.profile-data button:hover {
+    cursor: pointer;
+    color: #F0EFFA;
+    background: #1F1F1FCC;
+    transition: all 0.3s ease-in-out;
+}
+.profile-password {
+    position: relative;
+}
+.profile-password .eye-icon {
+   position: absolute;
+   font-size: 16px;
+   right: 10px;
+   top: 2px;
+   color : #4C4C4D;
+   cursor: pointer;
+}
