@@ -4,6 +4,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa6";
 import { AuthContext } from "../Context/AuthContext";
 import "./Header.css";
+import { RxHamburgerMenu } from "react-icons/rx";
 import logo from "../../assets/logo.png";
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
   const { isloggedin, logout, userRole } = useContext(AuthContext);
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
   const [MobileMode, setMobileMode] = useState(false);
-  
+
   useEffect(() => {
     // This will run whenever isloggedin changes, triggering a rerender of the component.
   }, [isloggedin]);
@@ -23,7 +24,7 @@ const Header = () => {
         setMobileNavOpen(false);
         setMobileMode(false);
       } else {
-        setMobileMode(true);
+        // setMobileMode(true);
       }
     };
     window.addEventListener("resize", handleResize);
@@ -38,12 +39,14 @@ const Header = () => {
         <h1>
           <Link to={"/home"}>EcoEmission Tracker</Link>
         </h1>
-        <button
-          className="hamburger-menu"
-          onClick={() => setMobileNavOpen(!isMobileNavOpen)}
-        >
-          ☰
-        </button>
+        <div className="mobile-menu-icon">
+          <button
+            className="hamburger-menu"
+            onClick={() => setMobileNavOpen(!isMobileNavOpen)}
+          >
+            <RxHamburgerMenu />
+          </button>
+        </div>
       </div>
       <nav style={{ display: isMobileNavOpen ? "none" : "block" }}>
         <ul>
