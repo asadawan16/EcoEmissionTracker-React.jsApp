@@ -34,7 +34,7 @@
     position: absolute;
     top: 1px;
     left: -30px;
-    color: #8EE04E;
+    color: #3A86FF;
     font-size: 20px;
 }
 .contactus-form form {
@@ -51,7 +51,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    border: 1px solid #8EE04E;
+    border: 1px solid #3A86FF;
     margin-bottom: 30px;
 }
 .contactus-form label {
@@ -65,9 +65,9 @@
 .contactus-form button {
     width: 40%;
     padding: 12px 10px;
-    border: 2px solid #8EE04E;
+    border: 2px solid #3A86FF;
     border-radius: 30px;
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
