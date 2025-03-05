@@ -51,13 +51,13 @@
     letter-spacing: 0.3px;
 }
 #admin-header  nav ul li a:hover {
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     color: #fff;
     border-radius: 8px;
     transition: all 0.3s ease-in-out;
 }
 #admin-header nav ul li a.active {
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     border-radius: 8px;
 }
 

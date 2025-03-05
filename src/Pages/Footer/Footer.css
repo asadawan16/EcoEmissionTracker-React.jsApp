@@ -5,7 +5,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: first baseline;
-    background-color: #000;
+    background-color:#1D3650;;
     column-gap: 50px;
 }
 footer::after {

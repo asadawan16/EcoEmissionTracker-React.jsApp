@@ -39,7 +39,7 @@
 .emission-category button {
     padding: 40px  69px;
     /* background-color:  rgba(116, 187, 187, 0.35); */
-    background-color: #8de04e7c;
+    background-color: #3A86FF7c;
     border: none;
     border-radius: 10px;
     color: #000;
@@ -50,7 +50,7 @@
 }
 .emission-category button:hover {
     /* background-color: rgba(58, 134, 255, 0.68); */
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     transition: all 0.3s ease-in-out;
     color: #fff;
 }
@@ -106,7 +106,7 @@
 #emission-form button[type="submit"] {
     padding: 10px 40px;
     border-radius: 20px;
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     border: none;
     color: #FFF;
     font-family: 'Montserrat';
@@ -122,7 +122,7 @@
     transition: all 0.3s ease-in-out;
 }
 button.active {
-    background-color: #8EE04E;
+    background-color: #3A86FF;
     color: #fff; /* Active text color */
     border: 1px solid #fff; /* Active border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */

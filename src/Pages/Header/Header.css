@@ -50,12 +50,12 @@ header nav ul li a:after {
   content: '';
   width: 0;
   height: 2px;
-  background-color: #8EE04E;
+  background-color: #3A86FF;
   left: 0;
   bottom: -5px;
 }
 header nav ul li a:hover  , .header-btn a:hover {
-  color: #8EE04E;
+  color: #3A86FF;
   transition: all 0.3s ease-in-out;
 }
 header nav ul li a:hover:after {
@@ -99,7 +99,7 @@ header nav ul li a:hover:after {
   line-height: 22px;
   font-family: 'Montserrat';
   font-weight: 400;
-  background-color: #8EE04E;
+  background-color: #3A86FF;
   color: #fff !important;
   border-radius: 40px;
 }
